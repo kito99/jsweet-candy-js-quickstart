@@ -10,6 +10,13 @@ For the sake of example, we will use a very simple library: [sprintf-js](https:/
 
 ## How to build
 
+Install the ``sprintf`` JavaScript library (to be included in the candy).
+
+```bash
+> bower install
+```
+
+
 Install with Maven:
 
 ```bash
@@ -19,6 +26,6 @@ Install with Maven:
 This command performs the following Maven phases:
 - ``compile``: compile with Java the Java APIs sources found in ``src/main/java``
 - ``generate-sources``: create the ``.d.ts`` TypeScript definitions bundle and puts it as a resource in ``src/typings``
-- ``package``: create the jar with the compiled Java APIs, and all the resources (including the TypeScript definitions, the JavaScript bundle, and the ``candy-metadata.json`` file filtered to set the targeted transpiler version)
+- ``package``: create the jar with the compiled Java APIs, and all the resources (including the TypeScript definitions, the ``sprintf`` JavaScript library, and the ``candy-metadata.json`` file filtered to set the targeted transpiler version)
 - ``install``: install the Maven artifact in your local Maven repository
 
