@@ -52,7 +52,7 @@
 					<tsOnly>true</tsOnly>
 					<tsOut>src/main/resources/src/typings/${project.artifactId}/${project.version}</tsOut>
 					<bundle>true</bundle>
-					<targetVersion>ES3</targetVersion>
+					<targetVersion>ES5</targetVersion>
 				</configuration>
 				<executions>
 					<execution>
@@ -73,7 +73,7 @@
 						<configuration>
 							<target>
 								<echo message="copying JavaScript lib to resources..." />
-								<copy file="bower_components/sprintf/dist/sprintf.min.js"
+								<copy file="bower_components/printf/dist/sprintf.min.js"
 									tofile="src/main/resources/META-INF/resources/webjars/${project.artifactId}/${project.version}/bundle.js"
 									verbose="true" />
 							</target>

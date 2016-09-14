@@ -1,4 +1,4 @@
-package def.sprintf;
+	package def.sprintf;
 
 public class Globals {
 

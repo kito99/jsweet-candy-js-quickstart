@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "sprintf": "^1.0.3"
+    "sprintf": "^1.0.3",
+    "moment": "^2.14.1"
   }
 }
